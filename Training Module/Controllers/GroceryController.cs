@@ -19,12 +19,22 @@ namespace Training_Module.Controllers
 
         public IActionResult Index()
         {
+            return View(Groceries);
+        }
+
+        public IActionResult Create()
+        {
+           return View();
+        }
+
+        public IActionResult Edit()
+        {
             return View();
         }
 
-        public ActionResult List()
+        public IActionResult Delete()
         {
-           return View(Groceries);
+            return View();
         }
     }
 

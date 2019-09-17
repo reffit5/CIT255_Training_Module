@@ -49,7 +49,6 @@ C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\bin\De
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Training_Module.TagHelpers.input.cache
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Training_Module.TagHelpers.output.cache
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Training_Module.RazorCoreGenerate.cache
-C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\List.g.cshtml.cs
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
@@ -64,3 +63,7 @@ C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\De
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Training_Module.RazorTargetAssemblyInfo.cs
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Training_Module.Views.pdb
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Training_Module.csproj.CopyComplete
+C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Index.g.cshtml.cs
+C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Create.g.cshtml.cs
+C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Edit.g.cshtml.cs
+C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Delete.g.cshtml.cs
