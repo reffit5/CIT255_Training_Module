@@ -12535,23 +12535,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RichR\\.nuget\\packages\\": {},
+    "C:\\Users\\cjkel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training_Module.csproj",
+      "projectUniqueName": "C:\\Users\\cjkel\\source\\repos\\CIT255_Training_Module-master\\Training Module\\Training_Module.csproj",
       "projectName": "Training_Module",
-      "projectPath": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training_Module.csproj",
-      "packagesPath": "C:\\Users\\RichR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\obj\\",
+      "projectPath": "C:\\Users\\cjkel\\source\\repos\\CIT255_Training_Module-master\\Training Module\\Training_Module.csproj",
+      "packagesPath": "C:\\Users\\cjkel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cjkel\\source\\repos\\CIT255_Training_Module-master\\Training Module\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\RichR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cjkel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

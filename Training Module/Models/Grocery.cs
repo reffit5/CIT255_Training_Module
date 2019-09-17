@@ -5,15 +5,12 @@ using System.Threading.Tasks;
 
 namespace Training_Module.Models
 {
-    public class Groceries
+    public class Grocery
     {
-
         public string ItemName { get; set; }
-        public int Quanitity { get; set; }
+        public int Quantity { get; set; }
         public double Price { get; set; }
-        public string Location {get; set; }
         public bool  GrabbedAlready { get; set; }
-        public bool Important { get; set; }
     }
 
 

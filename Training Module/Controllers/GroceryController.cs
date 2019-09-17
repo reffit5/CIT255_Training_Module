@@ -4,34 +4,27 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Training_Module.Models;
+using Training_Module.Data;
+
 namespace Training_Module.Controllers
 {
     public class GroceryController : Controller
     {
-        public IActionResult Index()
+        private List<Grocery> Groceries { get; set; }
+
+        public GroceryController()
         {
-            return View();
+            Groceries = SeedData.GetSeedDataSet().ToList();
         }
 
-        public IActionResult Groceries()
+        public IActionResult Index()
         {
             return View();
         }
 
         public ActionResult List()
         {
-            List<Groceries> grocery = new List<Groceries>();
-            grocery.Add(new Groceries
-            {
-                GrabbedAlready = false,
-                ItemName = "avacado",
-                Quanitity = 4,
-                Price = 1.99,
-                Important = true,
-                Location = "produce"
-            });
-          
-            return View(grocery);
+           return View(Groceries);
         }
     }
 
