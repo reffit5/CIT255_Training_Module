@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training Module.csproj": {}
+    "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training_Module.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training Module.csproj": {
+    "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training_Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training Module.csproj",
-        "projectName": "Training Module",
-        "projectPath": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training Module.csproj",
+        "projectUniqueName": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training_Module.csproj",
+        "projectName": "Training_Module",
+        "projectPath": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\Training_Module.csproj",
         "packagesPath": "C:\\Users\\RichR\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\RichR\\Desktop\\Training Module\\Training Module\\obj\\",
         "projectStyle": "PackageReference",

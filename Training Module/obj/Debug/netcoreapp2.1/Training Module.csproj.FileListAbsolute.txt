@@ -1,0 +1,32 @@
+C:\Users\RichR\Desktop\Training Module\Training Module\bin\Debug\netcoreapp2.1\Training Module.deps.json
+C:\Users\RichR\Desktop\Training Module\Training Module\bin\Debug\netcoreapp2.1\Training Module.runtimeconfig.json
+C:\Users\RichR\Desktop\Training Module\Training Module\bin\Debug\netcoreapp2.1\Training Module.runtimeconfig.dev.json
+C:\Users\RichR\Desktop\Training Module\Training Module\bin\Debug\netcoreapp2.1\Training Module.dll
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.csprojAssemblyReference.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.csproj.CoreCompileInputs.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.RazorAssemblyInfo.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.RazorAssemblyInfo.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.AssemblyInfoInputs.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.AssemblyInfo.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.TagHelpers.input.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.TagHelpers.output.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.RazorCoreGenerate.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.RazorTargetAssemblyInfo.cache
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.RazorTargetAssemblyInfo.cs
+C:\Users\RichR\Desktop\Training Module\Training Module\bin\Debug\netcoreapp2.1\Training Module.pdb
+C:\Users\RichR\Desktop\Training Module\Training Module\bin\Debug\netcoreapp2.1\Training Module.Views.dll
+C:\Users\RichR\Desktop\Training Module\Training Module\bin\Debug\netcoreapp2.1\Training Module.Views.pdb
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.Views.pdb
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.dll
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.pdb
+C:\Users\RichR\Desktop\Training Module\Training Module\obj\Debug\netcoreapp2.1\Training Module.csproj.CopyComplete
