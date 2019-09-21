@@ -64,7 +64,7 @@ using Training_Module.Models;
             WriteLiteral("\n<h2>List</h2>\n\n<p>\n    ");
             EndContext();
             BeginContext(160, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e85bf69a4e8b45c99a2b8827cf6ded84", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "49aa3d1837a642c6ae6798839b4c1b25", async() => {
                 BeginContext(183, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
