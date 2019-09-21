@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Training_Module.Models;
 
-namespace Training_Module.Data
+namespace Training_Module.Models
 {
-    public class SeedData
+    public class MockGroceryRepo : IGroceryInterface
     {
-        public List<Grocery> Groceries { get; set; }
+        private List<Grocery> _groceryList;
 
-       
-
-        public static List<Grocery> GetSeedDataSet()
+        public MockGroceryRepo()
         {
-            return new List<Grocery>()
+            _groceryList = new List<Grocery>()
             {
                 new Grocery()
                 {
@@ -37,11 +34,34 @@ namespace Training_Module.Data
                     ItemName = "Frozen Pizza",
                     Quantity = 6,
                     Price = 7.99,
-                    GrabbedAlready = false, 
+                    GrabbedAlready = false,
                     Id = "3"
                 },
             };
+        }
 
+        public Grocery Add(Grocery grocery)
+        {
+            Guid id = Guid.NewGuid();
+            grocery.Id = id.ToString();
+            _groceryList.Add(grocery);
+            return grocery;
+        }
+
+        public void Delete(Grocery byeByeItem)
+        {
+            Grocery item = GetGrocery(byeByeItem.Id);
+            _groceryList.Remove(item);
+        }
+
+        public IEnumerable<Grocery> GetAllGroceries()
+        {
+            return _groceryList;
+        }
+
+        public Grocery GetGrocery(string Id)
+        {
+            return _groceryList.FirstOrDefault(g => g.Id == Id);
         }
 
         

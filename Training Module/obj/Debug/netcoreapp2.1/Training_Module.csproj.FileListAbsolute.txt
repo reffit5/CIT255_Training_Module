@@ -67,3 +67,5 @@ C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\De
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Create.g.cshtml.cs
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Edit.g.cshtml.cs
 C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Delete.g.cshtml.cs
+C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout2.g.cshtml.cs
+C:\Users\cjkel\source\repos\CIT255_Training_Module-master\Training Module\obj\Debug\netcoreapp2.1\Razor\Views\Grocery\Details.g.cshtml.cs

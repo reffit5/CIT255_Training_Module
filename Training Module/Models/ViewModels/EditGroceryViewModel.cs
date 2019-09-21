@@ -4,22 +4,19 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Training_Module.Models
+namespace Training_Module.Models.ViewModels
 {
-    public class Grocery
+    public class EditGroceryViewModel
     {
         [Required]
-        [MaxLength(20, ErrorMessage ="Name Cannot Exceed 20 Characters")]
+        [MaxLength(25, ErrorMessage = "Name Cannot Exceed 25 Characters")]
         public string ItemName { get; set; }
         [Required]
         public int Quantity { get; set; }
         [Required]
-        [RegularExpression(@"\d{0,4}(\.\d{1,2})?$", 
+        [RegularExpression(@"\d +\.\d{1, 2}",
             ErrorMessage = "Invalid Price Format")]
         public double Price { get; set; }
-        public bool  GrabbedAlready { get; set; }
-        public string Id { get; set; }
+        public bool GrabbedAlready { get; set; }
     }
-
-
 }

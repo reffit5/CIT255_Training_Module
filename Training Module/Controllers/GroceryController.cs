@@ -1,40 +1,91 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Training_Module.Models;
-using Training_Module.Data;
+
 
 namespace Training_Module.Controllers
 {
+
     public class GroceryController : Controller
     {
-        private List<Grocery> Groceries { get; set; }
 
-        public GroceryController()
+        private readonly IGroceryInterface _groceriesRepo;
+
+        public GroceryController(IGroceryInterface groceryRepo)
         {
-            Groceries = SeedData.GetSeedDataSet().ToList();
-        }
+            _groceriesRepo = groceryRepo;
+        }     
+        
 
         public IActionResult Index()
         {
-            return View(Groceries);
+            var list = _groceriesRepo.GetAllGroceries();
+            return View(list);
+            
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
-           return View();
-        }
-
-        public IActionResult Edit()
-        {
             return View();
         }
 
-        public IActionResult Delete()
+        [HttpPost]
+        public IActionResult Create(Grocery item)
         {
+            if (ModelState.IsValid)
+            {
+                Grocery newGrocery = _groceriesRepo.Add(item);
+                return RedirectToAction("Details", new { id = item.Id } );
+            }
+
             return View();
+        }
+
+        public IActionResult Details(string id)
+        {
+            Grocery item = _groceriesRepo.GetGrocery(id);
+            
+            return View(item); 
+        }
+
+        [HttpGet]
+        public IActionResult Edit(string id)
+        {
+            var item = _groceriesRepo.GetGrocery(id);
+           
+            return View(item);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Grocery model)
+        {
+            if (ModelState.IsValid)
+            {
+                Grocery item = _groceriesRepo.GetGrocery(model.Id);
+                item.ItemName = model.ItemName;
+                item.Price = model.Price;
+                item.Quantity = model.Quantity;
+                item.GrabbedAlready = model.GrabbedAlready;
+
+                return RedirectToAction("Index");
+            };
+
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Delete(string id)
+        {
+            Grocery item = _groceriesRepo.GetGrocery(id);
+            return View(item);
+        }
+
+        [HttpPost]
+        public IActionResult Delete(Grocery byeByeItem)
+        {
+            _groceriesRepo.Delete(byeByeItem);
+            
+            return RedirectToAction("Index");
         }
     }
 
